@@ -1,0 +1,148 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #eef5ff;
+}
+
+/* Main Container */
+.container {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 25px;
+}
+
+/* App Title */
+h1 {
+  text-align: center;
+  color: #0d47a1;
+  margin-bottom: 25px;
+  font-size: 2.3rem;
+}
+
+/* Navigation */
+nav {
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+  text-decoration: none;
+  color: #1565c0;
+  font-size: 18px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #0d47a1;
+  transform: scale(1.05);
+}
+
+hr {
+  margin: 25px 0;
+  border: none;
+}
+
+/* Page Titles */
+h2 {
+  text-align: center;
+  color: #1565c0;
+  margin-bottom: 20px;
+}
+
+/* Dashboard Cards */
+.dashboard-card {
+  background: linear-gradient(135deg, #42a5f5, #1565c0);
+  color: white;
+  padding: 25px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(21, 101, 192, 0.3);
+}
+
+.dashboard-card h3 {
+  font-size: 1.5rem;
+}
+
+/* Search Box */
+input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #90caf9;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #1565c0;
+}
+
+/* Patient Card */
+.card {
+  background: white;
+  border-left: 6px solid #1565c0;
+  border-radius: 12px;
+  padding: 18px;
+  margin-bottom: 15px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card h4 {
+  color: #333;
+}
+
+/* Doctor Card */
+.doctor-item {
+  background: white;
+  padding: 18px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  border-left: 6px solid #26a69a;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  font-size: 17px;
+  font-weight: 500;
+}
+
+/* Buttons */
+button {
+  background: #1565c0;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #0d47a1;
+  transform: translateY(-2px);
+}
+
+/* Loading */
+.loading {
+  text-align: center;
+  color: #1565c0;
+  font-size: 24px;
+  margin-top: 50px;
+}
